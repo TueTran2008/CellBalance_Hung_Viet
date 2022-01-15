@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"cellbalance\startup_stm32f103xb.o"
+"cellbalance\main.o"
+"cellbalance\stm32f1xx_it.o"
+"cellbalance\stm32f1xx_hal_msp.o"
+"cellbalance\stm32f1xx_hal_gpio_ex.o"
+"cellbalance\stm32f1xx_hal_adc.o"
+"cellbalance\stm32f1xx_hal_adc_ex.o"
+"cellbalance\stm32f1xx_hal.o"
+"cellbalance\stm32f1xx_hal_rcc.o"
+"cellbalance\stm32f1xx_hal_rcc_ex.o"
+"cellbalance\stm32f1xx_hal_gpio.o"
+"cellbalance\stm32f1xx_hal_dma.o"
+"cellbalance\stm32f1xx_hal_cortex.o"
+"cellbalance\stm32f1xx_hal_pwr.o"
+"cellbalance\stm32f1xx_hal_flash.o"
+"cellbalance\stm32f1xx_hal_flash_ex.o"
+"cellbalance\stm32f1xx_hal_exti.o"
+"cellbalance\stm32f1xx_hal_tim.o"
+"cellbalance\stm32f1xx_hal_tim_ex.o"
+"cellbalance\system_stm32f1xx.o"
+"cellbalance\app_debug.o"
+"cellbalance\segger_rtt.o"
+"cellbalance\segger_rtt_printf.o"
+--strict --scatter "CellBalance\CellBalance.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CellBalance.map" -o CellBalance\CellBalance.axf

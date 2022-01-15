@@ -1,0 +1,11 @@
+cellbalance\segger_rtt_syscalls_keil.o: ..\SEGGER_RTT_V698b\Syscalls\SEGGER_RTT_Syscalls_KEIL.c
+cellbalance\segger_rtt_syscalls_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+cellbalance\segger_rtt_syscalls_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+cellbalance\segger_rtt_syscalls_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+cellbalance\segger_rtt_syscalls_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_sys.h
+cellbalance\segger_rtt_syscalls_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_misc.h
+cellbalance\segger_rtt_syscalls_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+cellbalance\segger_rtt_syscalls_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+cellbalance\segger_rtt_syscalls_keil.o: ..\SEGGER_RTT_V698b\RTT\SEGGER_RTT.h
+cellbalance\segger_rtt_syscalls_keil.o: ..\SEGGER_RTT_V698b\RTT\SEGGER_RTT_Conf.h
+cellbalance\segger_rtt_syscalls_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
